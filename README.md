@@ -4,7 +4,7 @@
 
 小咕是一款 macOS 菜单栏生活与效率工具，把日历、天气、生活提醒、热搜资讯、Finder 右键工作流和桌面伙伴放到随手可用的地方。需要时打开，不需要时安静地陪在桌角。
 
-GitHub：<https://github.com/LiJingBiao/xiaogu>
+[访问小咕网站](https://lijingbiao.github.io/xiaogu/) · [GitHub 项目](https://github.com/LiJingBiao/xiaogu)
 
 ## 功能一览
 
@@ -216,4 +216,4 @@ GitHub：<https://github.com/LiJingBiao/xiaogu>
 | --- | --- |
 | ![桌面组件 · 水墨 · 周历](<截图/压缩后图片/桌面组件-ink-周历.png>) |   |
 
-GitHub：<https://github.com/LiJingBiao/xiaogu>
+[访问小咕网站](https://lijingbiao.github.io/xiaogu/) · [GitHub 项目](https://github.com/LiJingBiao/xiaogu)

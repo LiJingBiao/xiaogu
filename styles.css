@@ -57,10 +57,7 @@ button { color: inherit; font: inherit; }
 .gallery-caption small { font-family: inherit; letter-spacing: .04em; }
 .gallery-item:focus-visible, .gallery-tab:focus-visible, .lightbox-close:focus-visible, .screenshot-link:focus-visible, .site-nav a:focus-visible, .button:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; }
 .spotlight { padding: 20px 0 120px; scroll-margin-top: 30px; }
-.project-address { margin: 22px 0 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
-.project-address > span { display: block; font-size: 12px; }
-.project-address a { display: inline-block; max-width: 100%; min-height: 44px; padding-block: 10px; color: var(--cyan); overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 4px; }
-.project-address a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; }
+.project-actions { margin-top: 22px; }
 .hotsearch-section { padding-bottom: 120px; scroll-margin-top: 30px; }
 .hotsearch-section .section-heading > p { max-width: 350px; font-size: 14px; }
 .hotsearch-capabilities, .hotsearch-screenshots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
