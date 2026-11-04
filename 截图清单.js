@@ -1,4 +1,4 @@
-// 图集仅引用随网站发布的压缩截图与用户提供的 JPEG 素材。
+// 图集仅引用随网站发布的界面截图与用户提供的素材。
 window.orielScreenshots = [
   {
     "title": "日历 · 生活玻璃",
@@ -7,6 +7,33 @@ window.orielScreenshots = [
     "image": "截图/压缩后图片/日历-glass-life.png",
     "width": 1240,
     "height": 960
+  },
+  {
+    "title": "热搜 · 微博",
+    "category": "hotsearch",
+    "image": "截图/压缩后图片/热搜-微博.png",
+    "sourceLabel": "用户提供 · 实际热搜界面",
+    "description": "小咕微博热搜面板，展示排行、新热标签、更新时间与橙色主题。榜单为截图采集时的内容，不代表当前实时排名。",
+    "width": 812,
+    "height": 1092
+  },
+  {
+    "title": "热搜 · 百度",
+    "category": "hotsearch",
+    "image": "截图/压缩后图片/热搜-百度.png",
+    "sourceLabel": "用户提供 · 实际热搜界面",
+    "description": "小咕百度热搜面板，展示搜索热点排行、刷新入口与深灰色主题。榜单为截图采集时的内容，不代表当前实时排名。",
+    "width": 812,
+    "height": 1092
+  },
+  {
+    "title": "热搜 · 知乎",
+    "category": "hotsearch",
+    "image": "截图/压缩后图片/热搜-知乎.png",
+    "sourceLabel": "用户提供 · 实际热搜界面",
+    "description": "小咕知乎热搜面板，展示热门问题排行与蓝色主题。榜单为截图采集时的内容，不代表当前实时排名。",
+    "width": 812,
+    "height": 1092
   },
   {
     "title": "Finder 右键 · 操作菜单",
