@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="description" content="小咕 Oriel：日历、生活提醒、可自定义的 Finder 右键工作流，以及陪你工作、联动 AI 任务状态的桌面机器人。" />
+    <title>小咕 Oriel · 把一天放在桌角</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow page-glow--one" aria-hidden="true"></div>
+    <div class="page-glow page-glow--two" aria-hidden="true"></div>
+
+    <header class="site-header container">
+      <a class="brand" href="#top" aria-label="小咕 Oriel 首页">
+        <img src="截图/压缩后图片/小咕图标.jpg" alt="小咕应用图标" width="36" height="36" />
+        <span>小咕 <em>Oriel</em></span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#features">功能</a>
+        <a href="#finder">强大右键</a>
+        <a href="#robot">桌面机器人</a>
+        <a href="#gallery">界面</a>
+        <a class="nav-pill" href="https://github.com/LiJingBiao/xiaogu.github.io" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> macOS 菜单栏生活工具箱</div>
+          <h1>把一天的节奏，<br /><span>放在桌角。</span></h1>
+          <p class="hero-lede">日历照看每一天，右键承包文件工作流，桌面机器人陪你等 AI 完成任务。小咕把生活与效率，放到你伸手就能碰到的地方。</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#gallery">查看功能截图 <span>↓</span></a>
+            <a class="button button--ghost" href="#finder">看看右键有多强 <span>→</span></a>
+          </div>
+          <div class="hero-meta"><span><i class="status-dot"></i> 原生 macOS 体验</span><span>轻量 · 常驻菜单栏</span><span>为中文用户而做</span></div>
+        </div>
+
+        <div class="hero-art reveal reveal--delay" aria-label="小咕日历界面预览">
+          <div class="art-orbit art-orbit--outer"></div>
+          <div class="art-orbit art-orbit--inner"></div>
+          <div class="art-window">
+            <img src="截图/压缩后图片/日历-glass-life.png" alt="小咕真实日历界面，展示农历、演示天气和日程" width="1240" height="960" fetchpriority="high" />
+          </div>
+          <div class="floating-note floating-note--lunar"><span class="note-icon note-icon--purple">实</span><span><b>真实界面采集</b><small>当前版本 · 演示数据</small></span></div>
+        </div>
+      </section>
+
+      <section class="signal container reveal" aria-label="产品特点">
+        <div class="signal-item"><strong>01</strong><span>一眼读懂<br />今天与此刻</span></div>
+        <div class="signal-line"></div>
+        <div class="signal-item"><strong>02</strong><span>提醒不打扰<br />但总在身边</span></div>
+        <div class="signal-line"></div>
+        <div class="signal-item"><strong>03</strong><span>常用工具<br />一处就够</span></div>
+        <div class="signal-line"></div>
+        <div class="signal-item"><strong>04</strong><span>视觉主题<br />随你的心情</span></div>
+      </section>
+
+      <section class="section container" id="features">
+        <div class="section-heading reveal"><div><span class="section-kicker">功能地图 / FEATURE MAP</span><h2>一张日历，<br /><em>照看好每一天。</em></h2></div><p>从时间到专注，从灵感到文件。小咕把高频的小事收拢在一块安静的桌面上。</p></div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-card-heading"><span class="feature-number">01</span><div class="feature-icon icon-calendar"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"></rect><path d="M8 3v4M16 3v4M3 10h18M8 14h3M8 17h5"></path></svg></div></div>
+            <h3>万年历 · 农历 · 节气</h3><p>公历、农历、节气与宜忌同屏呈现，日程和节日倒数一起照看重要的日子。</p>
+            <a class="feature-preview screenshot-link" href="截图/压缩后图片/日历-glass-life.png" data-screenshot="截图/压缩后图片/日历-glass-life.png" aria-label="放大查看日历界面"><img src="截图/压缩后图片/日历-glass-life.png" alt="小咕日历主面板，含农历、节气、日程和倒数" width="1240" height="960" loading="lazy" /><span class="image-hint">点击放大 ↗</span></a>
+            <span class="feature-tag">CALENDAR / LUNAR</span>
+          </article>
+          <article class="feature-card reveal reveal--delay">
+            <div class="feature-card-heading"><span class="feature-number">02</span><div class="feature-icon icon-reminder"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg></div></div>
+            <h3>生活提醒</h3><p>喝水、打卡、吃药、活动，给重复的小事一个轻巧的节奏。支持间隔提醒和稍后提醒。</p>
+            <a class="feature-preview screenshot-link" href="截图/压缩后图片/生活提醒-浅色.png" data-screenshot="截图/压缩后图片/生活提醒-浅色.png" aria-label="放大查看生活提醒界面"><img src="截图/压缩后图片/生活提醒-浅色.png" alt="小咕生活提醒面板，展示提醒事项和执行状态" width="720" height="1000" loading="lazy" /><span class="image-hint">点击放大 ↗</span></a>
+            <span class="feature-tag">LIFE REMINDER</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card-heading"><span class="feature-number">03</span><div class="feature-icon icon-weather"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6 11a3.5 3.5 0 0 0 1 7Z"></path><path d="M8 4v2M4.5 6.5 6 8M16 6l-1.5 2"></path></svg></div></div>
+            <h3>天气与未来预报</h3><p>当前体感、空气质量和未来几天，跟着日历一起出现。换一套主题，天气也融入新的桌面风格。</p>
+            <a class="feature-preview screenshot-link" href="截图/压缩后图片/日历-landscape-blue.png" data-screenshot="截图/压缩后图片/日历-landscape-blue.png" aria-label="放大查看包含天气的日历界面"><img src="截图/压缩后图片/日历-landscape-blue.png" alt="山水蓝日历主题中的天气与未来预报，使用演示天气" width="1320" height="920" loading="lazy" /><span class="image-hint">点击放大 ↗</span></a>
+            <span class="feature-tag">WEATHER / FORECAST</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card-heading"><span class="feature-number">04</span><div class="feature-icon icon-tool"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5 5 5M12 7l5 5M5 19l4-4M3 21l4-1 10-10a2.8 2.8 0 0 0-4-4L3 16l-1 4Z"></path></svg></div></div>
+            <h3>顺手工具箱</h3><p>截图、二维码、格式化、文本对比、图片压缩、字体预览……常用能力随手可用。</p>
+            <a class="feature-preview screenshot-link" href="截图/压缩后图片/工具箱.png" data-screenshot="截图/压缩后图片/工具箱.png" aria-label="放大查看工具箱界面"><img src="截图/压缩后图片/工具箱.png" alt="小咕工具箱，展示格式化、编码、二维码与文本对比等入口" width="644" height="1146" loading="lazy" /><span class="image-hint">点击放大 ↗</span></a>
+            <span class="feature-tag">EVERYDAY TOOLS</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card-heading"><span class="feature-number">05</span><div class="feature-icon icon-rocket"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4c3-2 6-2 6-2s0 3-2 6l-6 6-4-4 6-6Z"></path><path d="m8 12-3 1-2 3 4 1 1 4 3-2 1-3M5 19l-2 2M9 8 6 5"></path></svg></div></div>
+            <h3>快捷启动 · 剪贴板 · Finder 右键</h3><p>收藏常用应用、文件和脚本，找回复制过的内容，再把自己的文件工作流接入右键。</p>
+            <a class="feature-preview screenshot-link" href="截图/压缩后图片/快捷启动.png" data-screenshot="截图/压缩后图片/快捷启动.png" aria-label="放大查看快捷启动界面"><img src="截图/压缩后图片/快捷启动.png" alt="小咕快捷启动面板中的常用应用入口" width="644" height="1146" loading="lazy" /><span class="image-hint">点击放大 ↗</span></a>
+            <span class="feature-tag">QUICK LAUNCH / FINDER</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-card-heading"><span class="feature-number">06</span><div class="feature-icon icon-pet"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11c0-4 3-7 7-7s7 3 7 7v5a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-5Z"></path><path d="M8 9h.01M16 9h.01M9 14c2 1 4 1 6 0"></path></svg></div></div>
+            <h3>桌面伙伴</h3><p>点一点、摸摸头，让机器人回应你。连接 AI 工具后，还能跟随任务切换表情、显示状态提示。</p>
+            <a class="feature-preview screenshot-link" href="截图/压缩后图片/桌面机器人.png" data-screenshot="截图/压缩后图片/桌面机器人.png" aria-label="放大查看桌面机器人预览"><img src="截图/压缩后图片/桌面机器人.png" alt="桌面机器人状态预览窗口" width="1520" height="1064" loading="lazy" /><span class="image-hint">点击放大 ↗</span></a>
+            <span class="feature-tag">DESKTOP COMPANION</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="spotlight container" id="finder" aria-labelledby="finder-title">
+        <div class="section-heading reveal">
+          <div><span class="section-kicker">FINDER WORKFLOWS / 右键工作流</span><h2 id="finder-title">把整套文件工作流，<br /><em>放进一次右键。</em></h2></div>
+          <p>从打开项目、传文件，到带参数跑脚本。常用操作、开发工具和自己的自动化，都能在当前目录直接接上。</p>
+        </div>
+        <div class="finder-story">
+          <figure class="story-figure finder-figure reveal">
+            <a class="screenshot-link" href="截图/压缩后图片/右键.jpg" data-screenshot="截图/压缩后图片/右键.jpg" aria-label="放大查看 Finder 右键菜单">
+              <img src="截图/压缩后图片/右键.jpg" alt="Finder 实际右键菜单，含复制路径、快捷启动、终端、编辑器、LocalSend 与新建文件入口" width="534" height="827" loading="lazy" />
+              <span class="image-hint">点击放大 ↗</span>
+            </a>
+            <figcaption>你的文件，直接接上你的工具。<span>实际右键菜单 · 用户提供截图</span></figcaption>
+          </figure>
+          <div class="story-content">
+            <p class="story-lead reveal">高频操作随手用，复杂流程自己定。</p>
+            <div class="capability-grid">
+              <article class="capability-card reveal"><span class="capability-index">01 / 就地处理</span><h3>文件操作，少绕几步</h3><p>复制单个或多个路径、返回上一级、新建文件、添加快捷启动，还能把选中的文件交给 LocalSend 发送。操作围着当前文件展开。</p></article>
+              <article class="capability-card reveal"><span class="capability-index">02 / 直达工具</span><h3>右键所在，即是工作起点</h3><p>用配置好的应用打开文件夹或文本文件，接上终端、编辑器和 IDE。常用目录与开发路径也能做成自己的菜单动作。</p></article>
+              <article class="capability-card reveal"><span class="capability-index">03 / 自己编排</span><h3>把自己的脚本变成菜单</h3><p>支持 Shell、Python、Node.js 和 AppleScript，也能触发系统或指定应用的快捷键。内嵌命令、引用脚本文件或复制脚本，由你选择。</p></article>
+              <article class="capability-card reveal"><span class="capability-index">04 / 参数交互</span><h3>先填参数，再执行</h3><p>为动作配置文本输入、单选、默认值和必填项。执行时填写这一次需要的参数，同一个动作便能应对不同任务。</p></article>
+              <article class="capability-card reveal"><span class="capability-index">05 / 执行可控</span><h3>前台看过程，后台看结果</h3><p>选择终端自动执行或后台执行，按需查看运行输出。重要动作可开启运行前确认，动作也可限制在指定目录及其子目录显示。</p></article>
+              <article class="capability-card reveal"><span class="capability-index">06 / 越用越顺手</span><h3>从模板开始，做成自己的工具箱</h3><p>内置常用位置、开发者和 Git 动作模板。导入后可编辑、分组、改图标、排序或停用，自定义动作与分组支持 JSON 导入导出。</p></article>
+            </div>
+          </div>
+        </div>
+        <div class="workflow-examples reveal" aria-label="右键使用场景">
+          <div><span class="section-kicker">让菜单长成你的工作习惯</span><h3>同一套入口，接住不同的工作。</h3></div>
+          <ul><li><b>日常整理</b><span>复制路径 → 新建文件 → 加入快捷启动</span></li><li><b>开发项目</b><span>打开编辑器 → 查看 Git 状态或差异 → 带确认执行 Git 操作</span></li><li><b>重复任务</b><span>选择文件 → 填写自定义参数 → 运行你的处理脚本</span></li></ul>
+        </div>
+      </section>
+
+      <section class="robot-section" id="robot" aria-labelledby="robot-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><span class="section-kicker">DESKTOP COMPANION / 桌面机器人</span><h2 id="robot-title">工作有回应，<br /><em>等待也有陪伴。</em></h2></div>
+            <p>会看你、会歪头、会打瞌睡，也会跟随 AI 任务切换表情。桌角的一点微光，让忙碌、等待和片刻休息都有了模样。</p>
+          </div>
+          <div class="robot-story">
+            <figure class="story-figure robot-figure reveal">
+              <a class="screenshot-link" href="截图/压缩后图片/机器人全部32种状态.jpg" data-screenshot="截图/压缩后图片/机器人全部32种状态.jpg" aria-label="放大查看机器人 32 种状态图鉴">
+                <img src="截图/压缩后图片/机器人全部32种状态.jpg" alt="机器人 32 种状态图鉴：睡眠、唤醒、好奇、开心、专注、思考、任务完成、错误与等待输入等造型" width="1080" height="2584" loading="lazy" />
+                <span class="image-hint">查看 32 种状态 ↗</span>
+              </a>
+              <figcaption>眼神、姿态、光晕，一起表达此刻。<span>32 种状态总览 · 用户提供图片</span></figcaption>
+            </figure>
+            <div class="robot-copy">
+              <div class="robot-intro reveal"><span class="story-badge">有表情，也有性格</span><h3>从安静待机，<br />到认真开工。</h3><p>睡眠时灯光渐暗，开心时弯起眼睛，思考时亮起脉冲，完成响应时泛起绿色波纹。每一种状态都有自己的眼神、动作与轮廓光效。</p></div>
+              <article class="robot-detail reveal"><h3>点一点、摸摸头，它会回应</h3><p>单击唤醒或回应，双击随机表演、讲笑话或来碗毒鸡汤。支持摸头、拖动和摇晃互动，位置可以随手调整。</p></article>
+              <article class="robot-detail reveal"><h3>陪你作息，也懂安静</h3><p>可跟随时间作息，在空闲时发呆、休息或打瞌睡。想专心时，让它“安静待着”；想放松时，点播一段笑话，气泡会分段讲给你听。</p></article>
+              <article class="robot-detail reveal"><h3>把 AI 的忙碌，变成看得见的状态</h3><p>连接已支持的 AI 工具后，机器人能跟随接收任务、处理中、响应结束，以及来源可提供的错误或提问等待状态。多会话汇总，让你少来回切窗口看进度。</p><div class="agent-chips" aria-label="可连接的 AI 工具"><span>Codex</span><span>Grok</span><span>Cursor</span><span>Claude Code</span><span>Pi</span><span>OpenCode</span></div><p class="detail-note">需先授权日志目录、配置 Hook 或连接服务；可识别的状态随来源而异。完成表情表示本轮响应结束。</p></article>
+              <article class="robot-detail reveal"><h3>陪伴和任务，分得清轻重</h3><p>互动结束会回到当前任务表情。新任务、错误或等待处理会更新提示，忙碌时偶尔给你一句回应，安静模式也不会遮住需要关注的任务。</p></article>
+            </div>
+          </div>
+          <div class="insect-story reveal">
+            <a class="screenshot-link" href="截图/压缩后图片/满屏昆虫.jpg" data-screenshot="截图/压缩后图片/满屏昆虫.jpg" aria-label="放大查看桌面昆虫效果">
+              <img src="截图/压缩后图片/满屏昆虫.jpg" alt="真实桌面上的昆虫效果，蟑螂和蜘蛛显示在桌面背景上" width="1748" height="1848" loading="lazy" />
+              <span class="image-hint">查看桌面效果 ↗</span>
+            </a>
+            <div><span class="section-kicker">桌面还有一点小惊喜</span><h3>也可以，让桌面热闹一点。</h3><p>机器人之外，还有苍蝇、蟑螂和蜘蛛。分别调整数量、设置苍蝇的飞行速度，点击还会让它们跑开。给熟悉的桌面添一点意想不到的动静，喜欢安静就随时关闭。</p><span class="detail-note">实际桌面截图 · 用户提供</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase" id="gallery">
+        <div class="container">
+          <div class="section-heading section-heading--gallery reveal"><div><span class="section-kicker">真实界面 / SCREENSHOTS</span><h2>打开小咕，<br /><em>就是这些样子。</em></h2></div><p>73 张实际界面与组件采集图，加上 3 张用户补充图片。界面采集使用演示数据，组件为生产代码渲染；点击可放大查看。</p></div>
+          <div class="gallery-tabs reveal" role="tablist" aria-label="截图分类">
+            <button class="gallery-tab is-active" role="tab" aria-selected="true" type="button" data-filter="all">全部</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="finder">Finder 右键</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="calendar">日历与设置</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="life">生活提醒</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="tools">效率工具</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="desktop">桌面伙伴</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="capture">截图与录屏</button>
+            <button class="gallery-tab" role="tab" aria-selected="false" type="button" data-filter="widget">桌面组件</button>
+          </div>
+          <div class="gallery-grid">
+            <noscript><p>请启用 JavaScript 浏览分类图集，或直接查看<a href="截图/压缩后图片/日历-glass-life.png">日历图片</a>。</p></noscript>
+          </div>
+        </div>
+      </section>
+
+      <section class="about container" id="about">
+        <div class="about-card reveal"><div class="about-mark">O</div><div><span class="section-kicker">小咕的想法 / THE IDEA</span><h2>不追着你，<br /><em>只是一直在。</em></h2><p>小咕是一款面向 macOS 的生活与效率工具。我们相信，好的工具应该像桌角的一盏灯：需要时照亮你，不需要时安静地退到背景里。</p><a class="text-link" href="#features">探索全部功能 <span>→</span></a></div><div class="about-stamp"><span>CALM<br />UTILITY</span><i></i></div></div>
+      </section>
+
+      <section class="closing container reveal"><div class="closing-inner"><span class="section-kicker">准备好了吗 / READY WHEN YOU ARE</span><h2>让下一次抬眼，<br />刚好看到你需要的。</h2><div class="hero-actions"><a class="button button--primary" href="https://github.com/LiJingBiao/xiaogu.github.io" target="_blank" rel="noreferrer">前往 GitHub <span>↗</span></a><a class="button button--ghost" href="#top">回到顶部 <span>↑</span></a></div></div></section>
+    </main>
+
+    <footer class="site-footer container"><span>© <span id="year"></span> 小咕 Oriel</span><span>为 macOS 用户做的一点小心意 <span class="footer-spark">✦</span></span></footer>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="截图预览" aria-hidden="true"><div class="lightbox-backdrop" data-lightbox-close></div><div class="lightbox-panel"><button class="lightbox-close" type="button" aria-label="关闭预览" data-lightbox-close>×</button><img class="lightbox-image" src="" alt="" /><div class="lightbox-copy"><span class="section-kicker">SCREENSHOT PREVIEW</span><h3></h3><p></p></div></div></div>
+    <script src="截图清单.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
