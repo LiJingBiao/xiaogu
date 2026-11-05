@@ -57,6 +57,12 @@ button { color: inherit; font: inherit; }
 .gallery-caption small { font-family: inherit; letter-spacing: .04em; }
 .gallery-item:focus-visible, .gallery-tab:focus-visible, .lightbox-close:focus-visible, .screenshot-link:focus-visible, .site-nav a:focus-visible, .button:focus-visible { outline: 3px solid var(--cyan); outline-offset: 4px; }
 .spotlight { padding: 20px 0 120px; scroll-margin-top: 30px; }
+.pdf-section { padding-bottom: 120px; scroll-margin-top: 30px; }
+.pdf-section .section-heading > p { max-width: 350px; font-size: 14px; }
+.pdf-figure { margin-bottom: 32px; }
+.pdf-capabilities { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 900px) { .pdf-capabilities { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .pdf-section { padding-bottom: 80px; } .pdf-section .section-heading > p { font-size: 16px; } .pdf-capabilities .capability-card p { font-size: 16px; } }
 .project-actions { margin-top: 22px; }
 .hotsearch-section { padding-bottom: 120px; scroll-margin-top: 30px; }
 .hotsearch-section .section-heading > p { max-width: 350px; font-size: 14px; }

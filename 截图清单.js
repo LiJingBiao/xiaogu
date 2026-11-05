@@ -623,6 +623,15 @@ window.orielScreenshots = [
     "height": 1384
   },
   {
+    "title": "Markdown · 导出 PDF",
+    "category": "tools",
+    "image": "截图/压缩后图片/Markdown导出PDF.jpg",
+    "sourceLabel": "用户提供 · 实际原生窗口",
+    "description": "小咕 Markdown 预览窗口。可将当前预览导出为 PDF：连续长页或 A4 分页；A4 下可设置页眉、页脚、页码与边距。",
+    "width": 1880,
+    "height": 1281
+  },
+  {
     "title": "Markdown编辑页面",
     "category": "tools",
     "description": "独立截图宿主加载应用内实际工具页面，使用临时存储与演示文档；并非完整原生窗口截图。",
