@@ -646,5 +646,59 @@ window.orielScreenshots = [
     "image": "截图/压缩后图片/RAR解压.png",
     "width": 1120,
     "height": 1184
+  },
+  {
+    "title": "系统监控 · 系统",
+    "category": "new",
+    "image": "截图/压缩后图片/系统监控-系统.jpg",
+    "sourceLabel": "用户提供 · 实际界面",
+    "description": "系统监控的系统页，显示 CPU、GPU、内存压力、压缩内存、缓存、交换空间和已运行时间。数字是截图当时的状态。",
+    "width": 620,
+    "height": 554
+  },
+  {
+    "title": "系统监控 · 网络",
+    "category": "new",
+    "image": "截图/压缩后图片/系统监控-网络.jpg",
+    "sourceLabel": "用户提供 · 实际界面",
+    "description": "系统监控的网络页，显示上下行曲线、本次会话流量和正在使用网络的应用。测速会连接 Cloudflare。局域网地址未展示，数字是截图当时的状态。",
+    "width": 620,
+    "height": 1106
+  },
+  {
+    "title": "系统监控 · 磁盘",
+    "category": "new",
+    "image": "截图/压缩后图片/系统监控-磁盘.jpg",
+    "sourceLabel": "用户提供 · 实际界面",
+    "description": "系统监控的磁盘页，可切换卷，查看可用空间、可清除空间和整机读写。数字是截图当时的状态。",
+    "width": 620,
+    "height": 680
+  },
+  {
+    "title": "连接手机",
+    "category": "new",
+    "image": "截图/压缩后图片/连接手机.jpg",
+    "sourceLabel": "用户提供 · 实际界面",
+    "description": "已连接手机的面板。可查看局域网、蓝牙、电量和通知状态，并发送文字、文件或图片，也可以把文件拖进面板。",
+    "width": 772,
+    "height": 892
+  },
+  {
+    "title": "Agent 额度",
+    "category": "new",
+    "image": "截图/压缩后图片/Agent额度.jpg",
+    "sourceLabel": "用户提供 · 实际界面",
+    "description": "Agent 额度面板，列出 Codex、Claude Code、Grok 和 Cursor。授权后显示额度和重置时间。图中的百分比是截图当时的用量。",
+    "width": 656,
+    "height": 894
+  },
+  {
+    "title": "窗口晾衣架",
+    "category": "new",
+    "image": "截图/压缩后图片/窗口晾衣架.jpg",
+    "sourceLabel": "用户提供 · 实际桌面",
+    "description": "窗口晾衣架挂在屏幕顶边，把打开的窗口收成一排。这一屏是 14 个窗口里的第 1 页，可以刷新、截图或关闭。",
+    "width": 3954,
+    "height": 926
   }
 ];
