@@ -693,12 +693,30 @@ window.orielScreenshots = [
     "height": 894
   },
   {
+    "title": "窗口吊绳",
+    "category": "new",
+    "image": "截图/压缩后图片/窗口吊绳.jpg",
+    "sourceLabel": "用户提供 · 实际桌面",
+    "description": "窗口默认样式。窗口沿吊绳错落展开，可以搜索应用或标题，用方向键选择，按空格预览。",
+    "width": 3956,
+    "height": 2244
+  },
+  {
     "title": "窗口晾衣架",
     "category": "new",
     "image": "截图/压缩后图片/窗口晾衣架.jpg",
     "sourceLabel": "用户提供 · 实际桌面",
-    "description": "窗口晾衣架挂在屏幕顶边，把打开的窗口收成一排。这一屏是 14 个窗口里的第 1 页，可以刷新、截图或关闭。",
-    "width": 3954,
-    "height": 926
+    "description": "窗口晾衣架把打开的窗口挂成一排。拉绳可以翻页，顶部可以刷新、截图或关闭。这一屏是 8 个窗口里的第 1 页。",
+    "width": 3956,
+    "height": 1236
+  },
+  {
+    "title": "所有窗口",
+    "category": "new",
+    "image": "截图/压缩后图片/所有窗口.jpg",
+    "sourceLabel": "用户提供 · 实际桌面",
+    "description": "所有窗口按比例多行铺开。没有打开窗口的应用仍留在列表中，并显示暂无窗口预览。",
+    "width": 3490,
+    "height": 978
   }
 ];
