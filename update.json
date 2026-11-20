@@ -4,7 +4,7 @@
     "build": 2,
     "publishedAt": "2026-11-20T08:00:00+08:00",
     "minimumOSVersion": "15.3",
-    "downloadPageURL": "https://example.com/download",
+    "downloadPageURL": "https://github.com/LiJingBiao/xiaogu/releases/tag/2.1.1",
     "releaseNotes": [
       {"title": "新增", "items": ["支持更多桌面组件"]},
       {"title": "优化", "items": ["提升日历面板打开速度"]},
