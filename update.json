@@ -4,11 +4,11 @@
     "build": 2,
     "publishedAt": "2026-11-20T08:00:00+08:00",
     "minimumOSVersion": "15.3",
-    "downloadPageURL": "https://github.com/LiJingBiao/xiaogu/releases/tag/2.1.1",
+    "downloadPageURL": "https://github.com/LiJingBiao/xiaogu/releases/tag/2.1.2",
     "releaseNotes": [
-      {"title": "新增", "items": ["支持更多桌面组件"]},
-      {"title": "优化", "items": ["提升日历面板打开速度"]},
-      {"title": "修复", "items": ["修复部分场景下提醒重复的问题"]}
+      {"title": "新增", "items": ["可以检查新版本。发现更新后提醒，也可以跳过此版本或稍后提醒"]},
+      {"title": "优化", "items": ["Markdown 样式面板收起多余入口，窗口置顶改到窗口菜单", "默认示例文去掉文末的推荐阅读和二维码"]},
+      {"title": "修复", "items": ["修复 Markdown 首次启动时工具菜单不出现的问题", "新建文件的授权改由主程序处理，并修正提示窗口"]}
     ]
   }
 }
