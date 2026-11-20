@@ -1,0 +1,14 @@
+{
+  "latest": {
+    "version": "2.1.2",
+    "build": 2,
+    "publishedAt": "2026-11-20T08:00:00+08:00",
+    "minimumOSVersion": "15.3",
+    "downloadPageURL": "https://example.com/download",
+    "releaseNotes": [
+      {"title": "新增", "items": ["支持更多桌面组件"]},
+      {"title": "优化", "items": ["提升日历面板打开速度"]},
+      {"title": "修复", "items": ["修复部分场景下提醒重复的问题"]}
+    ]
+  }
+}
